@@ -6,9 +6,9 @@
 #include <WiFi.h>
 #include <WiFiClient.h>
 #include <BlynkSimpleEsp32.h>
-
-char ssid[] = ":))";     // Tên wifi
-char pass[] = "99999999a";       // Mật khẩu wifi
+// 2.4G
+char ssid[] = "wifi_test";     // Tên wifi
+char pass[] = "123456789";       // Mật khẩu wifi
 
 const int btn[2] = {13, 12};     // Chỉ 2 nút nhấn
 const int out[2] = {14, 27};     // Chỉ 2 relay
